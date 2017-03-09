@@ -9,6 +9,6 @@ package br.com.satc.personagens.Classes;
  *
  * @author Edutec
  */
-public class Bruxo {
+public class Druida {
     
 }

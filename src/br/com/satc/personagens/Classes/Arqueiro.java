@@ -13,6 +13,14 @@ public class Arqueiro extends Personagem {
         super(nome, forca, agilidade, vitalidade, inteligencia, destreza, sorte);
     }
 
+    public void FlechaDeFogo(){
+        // Debuff : "Burn" - Queima ao iniciar um turno.
+        // Duração do Debuff : 3 turnos.
+        // Dano do Debuff : 10% do dano causado no hit ao usar a skill.
+        // CDR : 7 turnos.
+        // Dano Base da Skill : 50.
+    }
+    
     @Override
     public void atacar() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
