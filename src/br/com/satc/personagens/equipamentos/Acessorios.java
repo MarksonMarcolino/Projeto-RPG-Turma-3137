@@ -11,26 +11,20 @@ import br.com.satc.personagens.Personagem;
  *
  * @author Usuario
  */
-public class Escudo extends Personagem{
+public class Acessorios extends Personagem{
     
-    int defesaArmor, peso, defesaMagicaArmor, lvlmin, vitalidadeMin, raridade;
+    int inteligenciaArmor, peso, lvlmin, raridade;
 
-    public Escudo(String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte) {
+    public Acessorios(String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte) {
         super(nome, forca, agilidade, vitalidade, inteligencia, destreza, sorte);
     }
     
-    public void Broquel(int defesaArmor,int defesaMagicaArmor, int peso, int lvlmin, int vitalidadeMin, int raridade){
-        this.defesaArmor = 10;
-        this.defesaMagicaArmor = 5;
-        this.peso = 2;
-        this.lvlmin = 2;
-        this.vitalidadeMin = 3;
+    public void AnelDeTopázio(int inteligenciaArmor, int peso, int lvlmin, int raridade){
+        this.inteligenciaArmor = 5;
+        this.peso = 1;
+        this.lvlmin = 1;
         this.raridade = 1;
-    }    
-    
-    
-    
-    
+    }
 
     @Override
     public void atacar() {
