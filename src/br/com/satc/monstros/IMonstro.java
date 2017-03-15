@@ -3,12 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.satc.personagens;
+package br.com.satc.monstros;
+
+import br.com.satc.personagens.*;
 
 /**
  *
  * @author Brayan Bertan
  */
-public class Dragao extends Monstros{
+public interface IMonstro {
+    public void ataquesespeciais();
+    public void habilidadesespeciais();
     
 }
