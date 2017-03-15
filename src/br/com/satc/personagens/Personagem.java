@@ -23,7 +23,7 @@ public abstract class Personagem implements IPersonagem {
     private int destreza;//dano de arco, hit, vel atq/2, reduz castime
     private int sorte;//critico, esq
     //--- Atributos --- //
-    private int hp;
+    private int hp; 
     private int sp;
     private int defesa;
     private int defesaMagica;
