@@ -5,6 +5,8 @@
  */
 package rpg;
 
+import br.com.satc.armas.Arma;
+
 /**
  *
  * @author Markson
@@ -16,6 +18,7 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
     }
     
 }
