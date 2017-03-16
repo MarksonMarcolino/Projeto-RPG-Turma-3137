@@ -3,23 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.satc.personagens;
+package br.com.satc.monstros;
+
+import br.com.satc.personagens.Personagem;
 
 /**
  *
  * @author Edutec
  */
-public abstract class Monstros extends Personagem{
+public abstract class Monstros extends Personagem implements IMonstro{
     
     int drop;
     String descricao;
     int exp;
+    int lvl;
 
-    public Monstros(int drop, String descricao, int exp, String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte) {
+    public Monstros(int drop, String descricao, int exp, String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte, int lvl) {
         super(nome, forca, agilidade, vitalidade, inteligencia, destreza, sorte);
         this.drop = drop;
         this.descricao = descricao;
         this.exp = exp;
+        this.lvl = lvl;
     }
 
     public int getDrop() {
