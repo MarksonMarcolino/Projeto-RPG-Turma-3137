@@ -5,34 +5,34 @@
  */
 package br.com.satc.monstros;
 
+import br.com.satc.personagens.Personagem;
+
 /**
  *
  * @author Brayan Bertan
  */
 public class Coral extends Monstros {
 
-    public Coral(int drop, String descricao, int exp, String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte) {
-        super(drop, descricao, exp, nome, forca, agilidade, vitalidade, inteligencia, destreza, sorte);
+    public Coral(int drop, String descricao, int exp, String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte, int lvl) {
+        super(drop, descricao, exp, nome, forca, agilidade, vitalidade, inteligencia, destreza, sorte, lvl);
+        this.setNome("Coral");
+        this.setDescricao("Um professor de informatica que bate nos alunos e planeja dominar o mundo");
+        this.setExp(500000);
+        this.setLvl(101);
+        this.setDrop(9000000);
+        this.setForca(100);
+        this.setAgilidade(100);
+        this.setVitalidade(200);
+        this.setInteligencia(150);
+        this.setDestreza(150);
+        this.setSorte(100);
     }
 
-   
-    
-    public void Atributos() {
-        //Nome: Coral
-        //Drop: 500000 Gold
-        //Lvl: 101
-        //Exp: 2500
-        //Força: 100
-        //Agilidade: 50
-        //Vitalidade: 200
-        //Inteligência: 150
-        //Destreza: 150
-        //Sorte: 50
-    }
 
     @Override
-    public void atacar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public void atacar(Personagem personagem) {
+        System.out.println("Coral usou Ataque Basico");
+        personagem.receberDano(500);
     }
 
     @Override
@@ -41,24 +41,20 @@ public class Coral extends Monstros {
     }
 
     @Override
-    public void ataquesespeciais() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        //Tapão Nas Costas
+    public void ataquesespeciais(Personagem personagem) {
+        System.out.println("Coral usou Tapão nas Costas");
         //Habilidade ativa.
-        //Dano base: 40.
-        //Efeito: Se Coral está atras do oponente ele inflige o dobro de dano com o Tapão nas Costas.  
-        //Custo de mana: 50.
+        personagem.receberDano(2000);
+        //Efeito: Se Coral for o primeiro a atacar, o dano de Tapão nas costas aumenta em 50%
         //Cooldown: 3 turnos.
     }
 
     @Override
-    public void habilidadesespeciais() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-        //Tããããh Sonico
+    public void habilidadesespeciais(Personagem personagem) {
+        System.out.println("Coral usou Tããããh Sonico");
         //Habilidade ativa.
-        //Dano base: 100.
+        personagem.receberDano(4000);
         //Efeito: Todos os oponentes proximos perdem o proximo turno.  
-        //Custo de mana: 100.
         //Cooldown: 5 turnos.
     }
     

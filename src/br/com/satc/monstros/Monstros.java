@@ -17,12 +17,21 @@ public abstract class Monstros extends Personagem implements IMonstro{
     String descricao;
     int exp;
     int lvl;
+    
 
     public Monstros(int drop, String descricao, int exp, String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte, int lvl) {
         super(nome, forca, agilidade, vitalidade, inteligencia, destreza, sorte);
         this.drop = drop;
         this.descricao = descricao;
         this.exp = exp;
+        this.lvl = lvl;
+    }
+
+    public int getLvl() {
+        return lvl;
+    }
+
+    public void setLvl(int lvl) {
         this.lvl = lvl;
     }
 
@@ -49,8 +58,6 @@ public abstract class Monstros extends Personagem implements IMonstro{
     public void setExp(int exp) {
         this.exp = exp;
     }
-    
-    
     
     
 }
