@@ -12,7 +12,7 @@ import br.com.satc.personagens.*;
  * @author Brayan Bertan
  */
 public interface IMonstro {
-    public void ataquesespeciais();
-    public void habilidadesespeciais();
+    public void ataquesespeciais(Personagem personagem);
+    public void habilidadesespeciais(Personagem personagem);
     
 }

@@ -15,17 +15,24 @@ public class Dragao extends Monstros{
 
     public Dragao(int drop, String descricao, int exp, int lvl, String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte) {
         super(drop, descricao, exp, lvl, nome, forca, agilidade, vitalidade, inteligencia, destreza, sorte);
+        this.setDrop(232);
+        this.setDescricao("Os dragões são criaturas misticas, muitas vezes descritas como a primeira raça que aparece no mundo. com vidas que duram milhares de anos.\n" +
+  "Este aspecto dos Dragões faz deles muito mais que um combatente desafiador. Eles são sábios e oráculos, fontes de sabedoria e profetas do que ainda está por vir. Seu próprio surgimento pode ser um presságio de sorte ou azar.");
+    this.setExp(2292);
+    this.setLvl(10);
+    this.setNome("Dragão Negro Rei Filhote");
+    this.setForca(14);
+    this.setAgilidade(5);
+    this.setVitalidade(55);
+    this.setInteligencia(10);
+    this.setDestreza(8);
+    this.setSorte(3);
+    
     }
+    
 
-   //Drop:200
-    //Descrição:Os dragões são criaturas miticas, muitas vezes descritas como a primeira raça que aparece no mundo. com vidas que duram milhares de anos.
-    //Este aspecto dos Dragões faz deles muito mais que um combatente desafiador. Eles são sábios e oráculos, fontes de sabedoria e profetas do que ainda está por vir. Seu próprio surgimento pode ser um presságio de sorte ou azar.
-    //int exp:Exp do nivel *0,45
-
-    @Override
-    public void atacar() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
+   
+   
 
     @Override
     public void bloquear() {
@@ -35,19 +42,23 @@ public class Dragao extends Monstros{
   
 
     @Override
-    public void ataquesespeciais() {
-        throw new UnsupportedOperationException("Not supported yet."); 
-        //Nome:Bafo Flamejante
-        //Habilidade ativa
-         //Efeito:Solta uma bola de fogo no oponente
-         //Inflinge 32 de dano   mais 40% caso o oponente use armadura metalica
-         //Custo de mana:20
+    public void ataquesespeciais(Personagem personagem) {
+        System.out.println("Dragão Negro Rei Filhote soltou um bafo de fogo");
+        personagem.receberDano(180);
+      
+         
     }
 
     @Override
-    public void habilidadesespeciais() {
-        throw new UnsupportedOperationException("Not supported yet."); 
-            //Habilidade area:voar
+    public void habilidadesespeciais(Personagem personagem) {
+            //Rajada de vento
+            //Efeito atordoa por 3 turnos
+            
+    }
+
+    @Override
+    public void atacar(Personagem personagem) {
+        personagem.receberDano(70);
     }
    
 
