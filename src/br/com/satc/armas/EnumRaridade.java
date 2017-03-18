@@ -11,7 +11,8 @@ package br.com.satc.armas;
  */
 public enum EnumRaridade {
     
-    COMUM("Comum"), INCOMUM("Incomum");
+    COMUM("Comum"), INCOMUM("Incomum"),
+    RARO("Raro");
     
     private String valorRaridade;
     EnumRaridade(String valor){

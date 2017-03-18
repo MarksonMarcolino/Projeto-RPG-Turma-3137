@@ -12,7 +12,9 @@ package br.com.satc.armas;
 public enum EnumCategoria {
     
     ARCO("Arco"),
+    BESTA("Besta"),
     CAJADO("Cajado"),
+    VARINHA("Varinha"),
     MACHADO("Machado");
     
     private String valorCategoria;

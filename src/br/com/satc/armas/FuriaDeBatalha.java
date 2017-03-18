@@ -6,24 +6,24 @@
 package br.com.satc.armas;
 
 import static br.com.satc.armas.EnumCategoria.MACHADO;
-import static br.com.satc.armas.EnumRaridade.COMUM;
+import static br.com.satc.armas.EnumRaridade.RARO;
 
 /**
  *
- * @author andre
+ * @author Edutec
  */
-public class Machadinha extends Arma{
+public class FuriaDeBatalha extends Arma {
     
-    public Machadinha(String nome, String descricao, EnumCategoria categoria, EnumRaridade raridade, int peso, int dano, int critico, int lvlNecessario) {
+    public FuriaDeBatalha(String nome, String descricao, EnumCategoria categoria, EnumRaridade raridade, int peso, int dano, int critico, int lvlNecessario) {
         super(nome, descricao, categoria, raridade, peso, dano, critico, lvlNecessario);
-        this.setNome("Machadinha");
-        this.setDescricao("Um pequeno machado, podendo ser manuseado com apenas uma mão, se tornando mais ágil, porém causando menos dano.");
+        this.setNome("Fúria de Batalha");
+        this.setDescricao("O portador deste poderoso machado ganha a habilidade de cortar pequenas faixas de inimigo ao mesmo tempo.");
         this.setCategoria(MACHADO);
-        this.setRaridade(COMUM);
+        this.setRaridade(RARO);
         this.setPeso(5);
-        this.setDano(10);
-        this.setCritico(1.2f);
-        this.setLvlNecessario(1);
+        this.setDano(22);
+        this.setCritico(2.0f);
+        this.setLvlNecessario(5);
     }
 
     @Override
@@ -35,5 +35,7 @@ public class Machadinha extends Arma{
     public void adicionarBonus() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    
     
 }

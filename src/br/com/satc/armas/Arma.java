@@ -9,7 +9,7 @@ package br.com.satc.armas;
  *
  * @author andre
  */
-public abstract class Arma {
+public abstract class Arma implements IArma {
     
     private String nome;
     private String descricao;
@@ -17,7 +17,7 @@ public abstract class Arma {
     private EnumRaridade raridade;
     private int peso;
     private int dano;
-    private int critico;
+    private float critico;
     
     private int lvlNecessario;
     
@@ -38,7 +38,7 @@ public abstract class Arma {
     private int penDestreza;
     private int penSorte;
 
-    public Arma(String nome, String descricao, EnumCategoria categoria, EnumRaridade raridade, int peso, int dano, int critico, int lvlNecessario) {
+    public Arma(String nome, String descricao, EnumCategoria categoria, EnumRaridade raridade, int peso, int dano, float critico, int lvlNecessario) {
         this.nome = nome;
         this.descricao = descricao;
         this.categoria = categoria;
@@ -116,11 +116,11 @@ public abstract class Arma {
         this.dano = dano;
     }
 
-    public int getCritico() {
+    public float getCritico() {
         return critico;
     }
 
-    public void setCritico(int critico) {
+    public void setCritico(float critico) {
         this.critico = critico;
     }
 

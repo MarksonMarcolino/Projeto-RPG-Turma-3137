@@ -14,7 +14,7 @@ import static br.com.satc.armas.EnumRaridade.COMUM;
  */
 public class CajadoVerdejante extends Arma {
     
-    public CajadoVerdejante(String nome, String descricao, EnumCategoria categoria, EnumRaridade raridade, int peso, int dano, int critico, int lvlNecessario) {
+    public CajadoVerdejante(String nome, String descricao, EnumCategoria categoria, EnumRaridade raridade, int peso, int dano, float critico, int lvlNecessario) {
         super(nome, descricao, categoria, raridade, peso, dano, critico, lvlNecessario);
         
         this.setNome("Cajado Verdejante");
@@ -23,10 +23,21 @@ public class CajadoVerdejante extends Arma {
         this.setCategoria(CAJADO);
         this.setRaridade(COMUM);
         this.setPeso(4);
-        this.setDano(5);
-        this.setCritico(2);
+        this.setDano(14);
+        this.setCritico(1.5f);
         this.setLvlNecessario(1);
         
+        
+    }
+
+    @Override
+    public void adicionarPenalidade() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public void adicionarBonus() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
