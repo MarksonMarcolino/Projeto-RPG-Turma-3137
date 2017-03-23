@@ -42,6 +42,8 @@ public class Main {
         }
       }while(gu1.getHp()>0);
         System.out.println("O goblin decapitou o guerreiro e comeu suas tripas");
+       
+        
       
     }
     

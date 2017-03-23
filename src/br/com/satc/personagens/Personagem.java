@@ -10,7 +10,6 @@ package br.com.satc.personagens;
  * @author Markson
  */
 public abstract class Personagem implements IPersonagem {
-
     private String nome;
     private int nivel;
     private int velocidadeMovimento;
@@ -50,6 +49,7 @@ public abstract class Personagem implements IPersonagem {
         this.setDestreza(destreza);
         this.setSorte(sorte);
     }
+   
 
     public void inicializar() {
         this.setHp(this.getVitalidade());
@@ -393,6 +393,9 @@ public abstract class Personagem implements IPersonagem {
         return experiencia;
     }
 
+  
+    
+
     /**
      * @param experiencia the experiencia to set
      */
@@ -410,5 +413,7 @@ public abstract class Personagem implements IPersonagem {
     public void receberDano(int dano) {
         this.hp-=dano;
     }
+    
+   
 
 }

@@ -6,35 +6,32 @@
 package br.com.satc.monstros;
 
 import br.com.satc.personagens.Personagem;
-import java.util.Random;
 
 /**
  *
- * @author Edutec
+ * @author Brayan Bertan
  */
-public class Goblin extends Monstros{
+public class Demonioabissal extends Monstros {
 
-    public Goblin(int drop, String descricao, int exp, int lvl, String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte) {
+    public Demonioabissal(int drop, String descricao, int exp, int lvl, String nome, int forca, int agilidade, int vitalidade, int inteligencia, int destreza, int sorte) {
         super(drop, descricao, exp, lvl, nome, forca, agilidade, vitalidade, inteligencia, destreza, sorte);
-        this.setDrop(5);
-        this.setDescricao("Um Goblin equipado com uma forte lança");
+       this.setDrop(12);
+        this.setDescricao("Um habitante do abismo!");
     this.setExp(19);
-    this.setLvl(1);
-    this.setNome("Goblin Lanceiro");
+    this.setLvl(2);
+    this.setNome("Demônio abissal");
     this.setForca(3);
-    this.setAgilidade(2);
-    this.setVitalidade(9);
+    this.setAgilidade(3);
+    this.setVitalidade(12);
     this.setInteligencia(1);
-    this.setDestreza(2);
+    this.setDestreza(3);
     this.setSorte(1);
     }
 
-     
     @Override
     public void atacar(Personagem personagem) {
-          System.out.println("O Goblin deu um ataque básico:");
-          personagem.receberDano(25);     
-    }
+          System.out.println("O Demônio abissal deu um ataque básico:");
+          personagem.receberDano(30);         }
 
     @Override
     public void bloquear() {
@@ -43,14 +40,13 @@ public class Goblin extends Monstros{
 
     @Override
     public void ataquesespeciais(Personagem personagem) {
-        System.out.println("Investida com a lança");
-        personagem.receberDano(80);   
-    }
+          System.out.println("O Demônio abissal deu um ataque especial:");
+          personagem.receberDano(90);             }
 
     @Override
     public void habilidadesespeciais(Personagem personagem) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         
     }
-
-   
+    
+    
 }
