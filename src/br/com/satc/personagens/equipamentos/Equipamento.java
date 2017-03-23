@@ -13,6 +13,7 @@ public abstract class Equipamento{
     String NomeEquip, DescricaoEquip;
     int peso, defesa, lvlmin;
     EnumRaridade Raridade;
+    EnumClassificacao Classificacao;
 
     public Equipamento(String NomeEquip, String DescricaoEquip, int peso, int defesa, int lvlmin, EnumRaridade Raridade) {
         this.NomeEquip = NomeEquip;
@@ -21,8 +22,17 @@ public abstract class Equipamento{
         this.defesa = defesa;
         this.lvlmin = lvlmin;
         this.Raridade = Raridade;
+        this.Classificacao = Classificacao;
     }
-    
+
+    public EnumClassificacao getClassificacao() {
+        return Classificacao;
+    }
+
+    public void setClassificacao(EnumClassificacao Classificacao) {
+        this.Classificacao = Classificacao;
+    }
+        
     public EnumRaridade getRaridade() {
         return Raridade;
     }

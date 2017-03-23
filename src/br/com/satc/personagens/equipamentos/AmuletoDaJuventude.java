@@ -28,6 +28,7 @@ public class AmuletoDaJuventude extends Equipamento{
         this.setNomeEquip("Amuleto da Juventude");
         this.setPeso(1);
         this.setRaridade(EnumRaridade.COMUM);
+        this.setClassificacao(EnumClassificacao.ACESSORIO);
         this.setVitalidadeAmuleto(3); 
     }
     
