@@ -20,12 +20,12 @@ public class MortoVivo extends Monstros {
         this.setExp(164); 
         this.setLvl(6);
         this.setDrop(85);
-        this.setForca(10);
-        this.setAgilidade(10);
-        this.setVitalidade(45);
+        this.setForca(15);
+        this.setAgilidade(5);
+        this.setVitalidade(80);
         this.setInteligencia(1);
-        this.setDestreza(1);
-        this.setSorte(1);
+        this.setDestreza(5);
+        this.setSorte(5);
     }
 
 

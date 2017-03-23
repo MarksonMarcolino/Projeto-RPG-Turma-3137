@@ -20,12 +20,12 @@ public class ElementalDoFogoPequeno extends Monstros {
         this.setExp(1353); 
         this.setLvl(9);
         this.setDrop(150);
-        this.setForca(3);
-        this.setAgilidade(5);
-        this.setVitalidade(45);
-        this.setInteligencia(10);
-        this.setDestreza(8);
-        this.setSorte(3);
+        this.setForca(5);
+        this.setAgilidade(9);
+        this.setVitalidade(65);
+        this.setInteligencia(20);
+        this.setDestreza(15);
+        this.setSorte(6);
     }
 
     @Override

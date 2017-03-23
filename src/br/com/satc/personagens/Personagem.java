@@ -409,6 +409,9 @@ public abstract class Personagem implements IPersonagem {
     
     public void receberDano (int dano){
         this.hp-=dano;
+        if(this.hp<0){
+            this.hp=0;
+        }
     }
     
 

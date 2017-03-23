@@ -20,12 +20,12 @@ public class GoblinArqueiro extends Monstros {
         this.setExp(471); 
         this.setLvl(7);
         this.setDrop(102);
-        this.setForca(2);
-        this.setAgilidade(10);
-        this.setVitalidade(30);
-        this.setInteligencia(1);
-        this.setDestreza(10);
-        this.setSorte(4);
+        this.setForca(3);
+        this.setAgilidade(15);
+        this.setVitalidade(45);
+        this.setInteligencia(3);
+        this.setDestreza(15);
+        this.setSorte(8);
     }
 
     @Override

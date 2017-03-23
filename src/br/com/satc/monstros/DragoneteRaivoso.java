@@ -20,12 +20,12 @@ public class DragoneteRaivoso extends Monstros {
         this.setExp(798); 
         this.setLvl(8);
         this.setDrop(150);
-        this.setForca(8);
-        this.setAgilidade(8);
-        this.setVitalidade(50);
-        this.setInteligencia(1);
-        this.setDestreza(4);
-        this.setSorte(1);
+        this.setForca(14);
+        this.setAgilidade(12);
+        this.setVitalidade(55);
+        this.setInteligencia(4);
+        this.setDestreza(8);
+        this.setSorte(3);
     }
 
     @Override
