@@ -5,6 +5,12 @@
  */
 package rpg;
 
+
+import br.com.satc.monstros.Goblin;
+import br.com.satc.personagens.Personagem;
+import java.util.Scanner;
+
+
 /**
  *
  * @author Markson
@@ -15,7 +21,8 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+      
     }
     
 }
