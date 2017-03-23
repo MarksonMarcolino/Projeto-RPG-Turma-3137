@@ -21,11 +21,11 @@ public class Goblin extends Monstros{
     this.setExp(19);
     this.setLvl(1);
     this.setNome("Goblin Lanceiro");
-    this.setForca(3);
-    this.setAgilidade(2);
-    this.setVitalidade(9);
+    this.setForca(5);
+    this.setAgilidade(3);
+    this.setVitalidade(13);
     this.setInteligencia(1);
-    this.setDestreza(2);
+    this.setDestreza(3);
     this.setSorte(1);
     }
 

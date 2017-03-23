@@ -21,12 +21,12 @@ public class Aqualume extends Monstros {
     this.setExp(33);
     this.setLvl(2);
     this.setNome("Aqualume");
-    this.setForca(4);
-    this.setAgilidade(3);
-    this.setVitalidade(12);
-    this.setInteligencia(1);
-    this.setDestreza(3);
-    this.setSorte(1);
+    this.setForca(5);
+    this.setAgilidade(4);
+    this.setVitalidade(18);
+    this.setInteligencia(2);
+    this.setDestreza(5);
+    this.setSorte(2);
     }
 
     @Override

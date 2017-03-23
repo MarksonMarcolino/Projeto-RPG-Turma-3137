@@ -21,12 +21,12 @@ public class Dragao extends Monstros{
     this.setExp(2292);
     this.setLvl(10);
     this.setNome("Dragão Negro Rei Filhote");
-    this.setForca(14);
-    this.setAgilidade(5);
-    this.setVitalidade(55);
-    this.setInteligencia(10);
-    this.setDestreza(8);
-    this.setSorte(3);
+    this.setForca(21);
+    this.setAgilidade(8);
+    this.setVitalidade(80);
+    this.setInteligencia(15);
+    this.setDestreza(12);
+    this.setSorte(4);
     
     }
     

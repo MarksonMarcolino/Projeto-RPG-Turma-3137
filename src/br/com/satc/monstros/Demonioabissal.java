@@ -20,11 +20,11 @@ public class Demonioabissal extends Monstros {
     this.setExp(50);
     this.setLvl(3);
     this.setNome("Demônio abissal");
-    this.setForca(3);
-    this.setAgilidade(3);
-    this.setVitalidade(15);
-    this.setInteligencia(1);
-    this.setDestreza(4);
+    this.setForca(5);
+    this.setAgilidade(4);
+    this.setVitalidade(21);
+    this.setInteligencia(2);
+    this.setDestreza(5);
     this.setSorte(1);
     }
 
