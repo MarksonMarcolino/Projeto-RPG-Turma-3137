@@ -20,9 +20,9 @@ public class FuriaDeBatalha extends Arma {
         this.setDescricao("O portador deste poderoso machado ganha a habilidade de cortar pequenas faixas de inimigo ao mesmo tempo.");
         this.setCategoria(MACHADO);
         this.setRaridade(RARO);
-        this.setPeso(5);
+        this.setPeso(6);
         this.setDano(22);
-        this.setCritico(2.0f);
+        this.setCritico(1.8088f);
         this.setLvlNecessario(5);
     }
 

@@ -22,7 +22,7 @@ public class Machadinha extends Arma{
         this.setRaridade(COMUM);
         this.setPeso(5);
         this.setDano(10);
-        this.setCritico(1.2f);
+        this.setCritico(1.666f);// infernal
         this.setLvlNecessario(1);
     }
 

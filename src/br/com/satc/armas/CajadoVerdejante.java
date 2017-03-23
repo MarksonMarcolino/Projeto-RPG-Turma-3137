@@ -23,7 +23,8 @@ public class CajadoVerdejante extends Arma {
         this.setCategoria(CAJADO);
         this.setRaridade(COMUM);
         this.setPeso(4);
-        this.setDano(14);
+        //this.setDanoMagico(8);
+        this.setDano(3);
         this.setCritico(1.5f);
         this.setLvlNecessario(1);
         

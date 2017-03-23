@@ -22,7 +22,7 @@ public class BestaIluminada extends Arma{
                 +" quando seu ataque critar.");
         this.setCategoria(BESTA);
         this.setRaridade(RARO);
-        this.setPeso(6);
+        this.setPeso(7);
         this.setDano(25);
         this.setCritico(1.7f);
         this.setLvlNecessario(5);
