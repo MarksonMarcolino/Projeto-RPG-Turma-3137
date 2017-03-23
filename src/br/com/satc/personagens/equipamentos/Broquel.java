@@ -23,9 +23,9 @@ public class Broquel extends Equipamento{
         super(NomeEquip, DescricaoEquip, peso, defesa, lvlmin, Raridade);
         
         this.setDefesa(9);
-        this.setDescricaoEquip("dps");
+        this.setDescricaoEquip("Escudo redondo, feito de madeira e com um circulo metal no centro.");
         this.setLvlmin(1);
-        this.setNomeEquip("Escudo redondo, feito de madeira e com um circulo metal no centro.");
+        this.setNomeEquip("Broquel");
         this.setPeso(5);
         this.setRaridade(EnumRaridade.COMUM);
         this.setMrBroquel(5);

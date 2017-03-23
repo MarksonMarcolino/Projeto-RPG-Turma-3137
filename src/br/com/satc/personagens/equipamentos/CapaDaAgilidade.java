@@ -36,8 +36,8 @@ public class CapaDaAgilidade extends Equipamento{
         this.setNomeEquip("Capa da Agilidade");
         this.setPeso(2);
         this.setRaridade(EnumRaridade.COMUM);
-        this.setDestrezaCapa(4);
-        this.setAgilidadeCapa(3);
+        this.setDestrezaCapa(2);
+        this.setAgilidadeCapa(1);
     }
     
 }

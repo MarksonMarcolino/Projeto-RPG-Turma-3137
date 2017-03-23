@@ -19,7 +19,6 @@ public class AmuletoDaJuventude extends Equipamento{
     public void setVitalidadeAmuleto(int vitalidadeAmuleto) {
         this.vitalidadeAmuleto = vitalidadeAmuleto;
     }
-    
     public AmuletoDaJuventude(String NomeEquip, String DescricaoEquip, int peso, int defesa, int lvlmin, EnumRaridade Raridade) {
         super(NomeEquip, DescricaoEquip, peso, defesa, lvlmin, Raridade);
         
