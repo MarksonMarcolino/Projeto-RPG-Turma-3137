@@ -17,6 +17,7 @@ public abstract class Arma implements IArma {
     private EnumRaridade raridade;
     private int peso;
     private int dano;
+    private int danoMagico;
     private float critico;
     
     private int lvlNecessario;
@@ -66,8 +67,15 @@ public abstract class Arma implements IArma {
         this.penDestreza = 0;
         this.penSorte = 0;        
     }
-    
-    
+
+    public int getDanoMagico() {
+        return danoMagico;
+    }
+
+    public void setDanoMagico(int danoMagico) {
+        this.danoMagico = danoMagico;
+    }
+        
     public String getNome() {
         return nome;
     }

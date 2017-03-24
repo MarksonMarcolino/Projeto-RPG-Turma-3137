@@ -26,7 +26,7 @@ public class VarinhaEspectral extends Arma {
         this.setCategoria(VARINHA);
         this.setRaridade(RARO);
         this.setPeso(2);
-        //this.setDanoMagico(24);
+        this.setDanoMagico(24);
         this.setDano(5);
         this.setCritico(2.0f);
         this.setLvlNecessario(5);
