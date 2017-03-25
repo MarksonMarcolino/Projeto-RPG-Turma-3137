@@ -12,6 +12,5 @@ package br.com.satc.personagens;
 public interface IPersonagem {
     public void atacar();
     public void bloquear();
-    
-       
+    public void equipar();       
 }
