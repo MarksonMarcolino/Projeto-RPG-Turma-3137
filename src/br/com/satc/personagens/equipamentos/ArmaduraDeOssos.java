@@ -24,11 +24,12 @@ public class ArmaduraDeOssos extends Equipamento{
         this.setNomeEquip("Armadura de Ossos");
         this.setDescricaoEquip("Armadura leve, que utiliza de ossos do "
                              + "peitoral de um dragão ancião");
-        this.setDefesa(10);
-        this.setLvlmin(2);
-        this.setPeso(10);
+        this.setDefesa(8);
+        this.setLvlmin(1);
+        this.setPeso(8);
         this.setRaridade(EnumRaridade.COMUM);
-        this.setMrArmadura(5);
+        this.setClassificacao(EnumClassificacao.ARMADURA);
+        this.setMrArmadura(3);
     }
     
 }

@@ -19,6 +19,7 @@ public class KappaCete extends Equipamento{
         this.setNomeEquip("KappaCete");
         this.setPeso(4);
         this.setRaridade(EnumRaridade.COMUM);
+        this.setClassificacao(EnumClassificacao.CAPACETE);
     }
     
 }

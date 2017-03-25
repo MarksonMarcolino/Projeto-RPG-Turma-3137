@@ -25,6 +25,7 @@ public class AnelDoIvan extends Equipamento {
                              + "'VAI CABEÇA DE LAMPADA'. Anel forjado por Ivan, nas provincias de Zueiran");
         this.setLvlmin(1);
         this.setRaridade(EnumRaridade.COMUM);
+        this.setClassificacao(EnumClassificacao.ACESSORIO);
         this.setDefesa(0);
         this.setForcaAnel(3);
     }

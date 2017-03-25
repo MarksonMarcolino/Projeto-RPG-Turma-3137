@@ -28,6 +28,7 @@ public class Broquel extends Equipamento{
         this.setNomeEquip("Broquel");
         this.setPeso(5);
         this.setRaridade(EnumRaridade.COMUM);
+        this.setClassificacao(EnumClassificacao.ESCUDO);
         this.setMrBroquel(5);
     }
     
