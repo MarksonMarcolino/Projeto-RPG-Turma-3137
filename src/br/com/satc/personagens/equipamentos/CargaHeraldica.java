@@ -27,7 +27,7 @@ public class CargaHeraldica extends Equipamento{
         this.setDescricaoEquip("Escudo quase-mágico");
         this.setLvlmin(1);
         this.setNomeEquip("Carga Heráldica");
-        this.setPeso(5);
+        this.setPeso(3);
         this.setRaridade(EnumRaridade.COMUM);
         this.setMrCargaH(6);
     }

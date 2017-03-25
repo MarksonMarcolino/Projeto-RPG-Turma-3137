@@ -22,7 +22,7 @@ public class AnelDoIvan extends Equipamento {
         this.setNomeEquip("Anel Do Ivan");
         this.setPeso(1);
         this.setDescricaoEquip("Anel dourado, liso por fora, e com inscrições por dentro: "
-                             + "'VAI CABEÇA DE LAMPADA'. Anel forjado por Ivan, nas provincias de Zueiran");
+                             + "'VAI CABEÇA DE LAMPADA'. Anel forjado por Ivan, nas provincias de Zueiran.");
         this.setLvlmin(1);
         this.setRaridade(EnumRaridade.COMUM);
         this.setClassificacao(EnumClassificacao.ACESSORIO);

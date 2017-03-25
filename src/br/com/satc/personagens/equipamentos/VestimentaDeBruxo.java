@@ -25,7 +25,7 @@ public class VestimentaDeBruxo extends Equipamento{
         this.setLvlmin(1);
         this.setClassificacao(EnumClassificacao.ARMADURA);
         this.setRaridade(EnumRaridade.COMUM);
-        this.setDefesa(0);
+        this.setDefesa(3);
         this.setDescricaoEquip("Vestimenta usada nas batalhas nórdicas à muito tempo atrás");
         this.setNomeEquip("Vestimenta de Bruxo");
         this.setPeso(3);

@@ -24,7 +24,7 @@ public class SapatosDoFeiticeiro extends Equipamento{
         super(NomeEquip, DescricaoEquip, peso, defesa, lvlmin, Raridade);
         
         this.setLvlmin(1);
-        this.setDefesa(0);
+        this.setDefesa(2);
         this.setNomeEquip("Sapatos do Feiticeiro");
         this.setPeso(1);
         this.setDescricaoEquip("Sapatos feitos do mesmo tecido do tenis de Merlin");

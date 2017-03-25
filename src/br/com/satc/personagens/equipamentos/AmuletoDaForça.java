@@ -25,7 +25,7 @@ public class AmuletoDaForça extends Equipamento{
         this.setClassificacao(EnumClassificacao.ACESSORIO);
         this.setRaridade(EnumRaridade.COMUM);
         this.setDefesa(0);
-        this.setDescricaoEquip("Amuleto de um guerreiro morto");
+        this.setDescricaoEquip("Amuleto de um guerreiro morto.");
         this.setLvlmin(1);
         this.setPeso(2);
         this.setNomeEquip("Amuleto da Força");

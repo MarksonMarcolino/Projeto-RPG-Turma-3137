@@ -7,9 +7,9 @@ package br.com.satc.personagens.equipamentos;
 
 /**
  *
- * @author Usuario
+ * @author MEUS DOCUMENTOS
  */
-public class AnelDoDestemido extends Equipamento{
+public class AnelDoDestemido2 extends Equipamento{
     private int DesAnel;
 
     public int getDesAnel() {
@@ -20,16 +20,16 @@ public class AnelDoDestemido extends Equipamento{
         this.DesAnel = DesAnel;
     }
     
-    public AnelDoDestemido(String NomeEquip, String DescricaoEquip, int peso, int defesa, int lvlmin, EnumRaridade Raridade) {
+    public AnelDoDestemido2(String NomeEquip, String DescricaoEquip, int peso, int defesa, int lvlmin, EnumRaridade Raridade) {
         super(NomeEquip, DescricaoEquip, peso, defesa, lvlmin, Raridade);
-        this.setClassificacao(EnumClassificacao.ACESSORIO);
-        this.setDefesa(0);
-        this.setDescricaoEquip("Anél usado no casamento de um aventureiro qualquer");
-        this.setLvlmin(1);
-        this.setNomeEquip("Anél do Destemido");
+        this.setNomeEquip("Anél do Destemido +2");
+        this.setDescricaoEquip("Uma versão melhorada do Anél do Destemido.");
+        this.setLvlmin(3);
         this.setPeso(1);
-        this.setRaridade(EnumRaridade.COMUM);
-        this.setDesAnel(3);
+        this.setClassificacao(EnumClassificacao.ACESSORIO);
+        this.setRaridade(EnumRaridade.INCOMUM);
+        this.setDefesa(0);
+        this.setDesAnel(4);
     }
     
 }

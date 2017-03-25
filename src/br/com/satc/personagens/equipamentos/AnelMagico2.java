@@ -7,9 +7,9 @@ package br.com.satc.personagens.equipamentos;
 
 /**
  *
- * @author Usuario
+ * @author MEUS DOCUMENTOS
  */
-public class AnelMagico extends Equipamento{
+public class AnelMagico2 extends Equipamento{
     private int IntAnel;
 
     public int getIntAnel() {
@@ -20,16 +20,16 @@ public class AnelMagico extends Equipamento{
         this.IntAnel = IntAnel;
     }
     
-    public AnelMagico(String NomeEquip, String DescricaoEquip, int peso, int defesa, int lvlmin, EnumRaridade Raridade) {
+    public AnelMagico2(String NomeEquip, String DescricaoEquip, int peso, int defesa, int lvlmin, EnumRaridade Raridade) {
         super(NomeEquip, DescricaoEquip, peso, defesa, lvlmin, Raridade);
-        this.setClassificacao(EnumClassificacao.ACESSORIO);
-        this.setDefesa(0);
-        this.setDescricaoEquip("Anél do mesmo dono do Amuleto da Inteligência");
-        this.setLvlmin(1);
-        this.setNomeEquip("Anél Mágico");
+        this.setNomeEquip("Anél Mágico +2");
+        this.setDescricaoEquip("Uma versão melhorada do Anél Mágico.");
+        this.setLvlmin(3);
         this.setPeso(1);
-        this.setRaridade(EnumRaridade.COMUM);
-        this.setIntAnel(3);
+        this.setClassificacao(EnumClassificacao.ACESSORIO);
+        this.setRaridade(EnumRaridade.INCOMUM);
+        this.setDefesa(0);
+        this.setIntAnel(4);
     }
     
 }

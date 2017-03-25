@@ -9,10 +9,11 @@ package br.com.satc.personagens.equipamentos;
  *
  * @author Usuario
  */
-public class Scutu extends Equipamento{
+public class Scutum extends Equipamento{
     
-    public Scutu(String NomeEquip, String DescricaoEquip, int peso, int defesa, int lvlmin, EnumRaridade Raridade) {
+    public Scutum(String NomeEquip, String DescricaoEquip, int peso, int defesa, int lvlmin, EnumRaridade Raridade) {
         super(NomeEquip, DescricaoEquip, peso, defesa, lvlmin, Raridade);
+        this.setNomeEquip("Scutum");
         this.setClassificacao(EnumClassificacao.ESCUDO);
         this.setDefesa(13);
         this.setDescricaoEquip("Do latim, Scutu");
